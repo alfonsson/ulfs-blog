@@ -1,12 +1,13 @@
 import classNames from 'classnames';
 import { useEffect } from 'react';
 import styles from './Layout.module.css';
+// import CustomLink from '../components/CustomLink';
 
 export function GradientBackground({ variant, className }) {
   const classes = classNames(
     {
       [styles.colorBackground]: variant === 'large',
-      [styles.colorBackgroundBottom]: variant === 'small',
+      [styles.colorBackgroundBottom]: variant === 'large',
     },
     className
   );
@@ -26,6 +27,8 @@ export default function Layout({ children }) {
     }
     return;
   };
+
+  // <CustomLink />
 
   const handleSystemThemeChange = () => {
     var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
