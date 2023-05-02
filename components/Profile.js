@@ -5,11 +5,11 @@ export default function Profile(props) {
     <>
     <Image
         priority
-        src="/posts/img/profile.png"
+        src="/public/img/profile.png"
         className='rounded-full pt-3'
         height={140}
         width={140}
-        alt="text"
+        alt=""
     />
     </>
     )
