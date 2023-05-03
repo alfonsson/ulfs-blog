@@ -4,13 +4,16 @@ import Link from 'next/link';
 export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
-      <div className="w-12 h-12 rounded-full block mx-auto mb-4 bg-gradient-conic from-gradient-3 to-gradient-4">
-      </div>
-      <p className="text-2xl dark:text-white text-center">
+      <div className="w-12 h-8  rounded-full block mx-auto mb-4 bg-gray-400">
         <Link href="/">
-          <a>{name}</a>
+          <a className='pl-3'>🏠</a>
         </Link>
-      </p>
+      </div>
+      <div>
+        <Link href="/posts/exclaimer">
+          <a className='underline'>Disclaimer!</a>
+        </Link>
+      </div>
     </header>
   );
 }
