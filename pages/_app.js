@@ -1,4 +1,6 @@
 import '../styles/globals.css';
+import '../styles/blogstyle.css';
+
 import 'prismjs/themes/prism-tomorrow.css';
 import Script from 'next/script';
 
