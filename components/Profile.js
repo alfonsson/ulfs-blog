@@ -5,10 +5,10 @@ export default function Profile(props) {
     <>
     <Image
         priority
-        src="/public/img/profile.png"
-        className='rounded-full pt-3'
-        height={140}
-        width={140}
+        src="/img/gbg-smal.jpg"
+        className='rounded pt-3'
+        height={200}
+        width={1000}
         alt=""
     />
     </>
