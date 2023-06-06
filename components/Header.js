@@ -6,7 +6,7 @@ export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
       <div className='pb-5'>
-        <p className='text-left italic text-3xl'>Ulferik&apos;s website</p>
+        <p className='text-left italic text-3xl'>Ulferik&apos;s miniblog</p>
         <p className='text-center italic text-2xl p-3'>Gothenburg</p>
         <Profile />
         </div>
@@ -17,7 +17,7 @@ export default function Header({ name }) {
       </div>
       <div>
         <Link href="/posts/exclaimer">
-          <a className='underline'>Disclaimer!</a>
+          <a className='underline'>Read blog info!</a>
         </Link>
       </div>
     </header>
