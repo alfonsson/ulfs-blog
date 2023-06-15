@@ -8,7 +8,7 @@ const dbName = 'articles'; // Replace with your database name
 let cachedClient = null;
 
 export async function connectToDatabase() {
-  if (cachedClient && cachedClient.isConnected()) {
+  if (cachedClient && cachedClient.topology.isConnected()) {
     return cachedClient;
   }
 
