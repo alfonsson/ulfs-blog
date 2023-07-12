@@ -1,0 +1,11 @@
+userpool
+eu-west-1_dyXF5UNqS
+
+api endpoint
+https://tvj7mlh9gh.execute-api.eu-west-1.amazonaws.com
+
+identity id
+eu-west-1:0823ff54-d4e0-4c2b-9711-7f5aa7b5cd85
+
+userpoolClientId
+4uu2gn6le3p2li6bbfgff3tmih
